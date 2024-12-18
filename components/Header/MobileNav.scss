@@ -1,0 +1,16 @@
+#mob-nav-links{
+    position: absolute;
+    right: 20px;
+    bottom: -100px;
+    
+    #mob-nav-items{
+        list-style: none;
+        display: block;
+        color: black;
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 32px 0;
+    position: relative;
+
+    .logo {
+        order: 1;
+    }
+
+    .nav-links {
+        order: 2;
+        display: block;
+    }
+
+    .searchbar {
+        order: 3;
+    }
+    .mobile-nav{
+        order: 4;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    header {
+        .logo {
+            order: 1;
+        }
+
+        .nav-links {
+            order: 3;
+            display: none;
+        }
+
+        .searchbar {
+            width: 50%;
+            order: 2;
+        }
+        .mobile-nav{
+            order: 4;
+            display: block;
+        }
+    }
+}

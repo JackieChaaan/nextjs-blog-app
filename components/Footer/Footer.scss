@@ -1,0 +1,31 @@
+footer {
+    padding: 2rem 0;
+    background-color: #DCDDDF;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        .terms-policy {
+            ul {
+                list-style: none;
+                display: flex;
+
+                li {
+                    margin: 15px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    footer{
+        .container{
+            flex-wrap: wrap;
+        }
+    }
+}
